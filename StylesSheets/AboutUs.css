@@ -1,0 +1,155 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash");
+@font-face{
+    font-family: "BOOTERZZ";
+    src: url(/Fonts/BOOTERZZ.ttf) format("tff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+   box-sizing: border-box;
+   color: rgb(156, 158, 160);
+}
+
+html , body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+       margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    
+    padding: 1em;
+    text-decoration: none;
+    color : #535353;
+}
+
+.nav a:hover {
+    background-color: rgb(156, 158, 160);
+}
+
+.nav button {
+    padding :1em;
+    margin: 1em;
+    width: 30%;
+    background-image: url(/Images/banner.jpg);
+    background-blend-mode: multiply;
+    color: #BABABA;    
+    font-size: .7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.nav-main-1 {
+
+    text-align: center;
+    font-size: 1.4em;
+    padding-right: 6em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255,255,0.6);
+}
+
+
+.main-header {
+
+    background-image: url(/Images/banner.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 40px;
+
+}
+
+.banner-name {
+
+    text-align: center;
+    margin : 0;
+    font-size: 3em;
+    font-family: "Berkshire Swash";
+    color: white;
+}
+
+.contianer {
+        margin : 0 auto;
+        padding : 0 1.3em;
+        text-align: center;
+        color : black;
+}
+
+.about-name {
+    font-family: "Metal Mania";
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    color : black;
+}
+
+.team .person {
+    display: block;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    .team .person:hover, .team .person:focus {
+      opacity: .7; }
+    .team .person img {
+      max-width: 100%;
+      margin-bottom: 20px; }
+    .team .person h2 {
+      font-size: 18px;
+      line-height: 1.5;}
+.team .person p {
+      font-size: 13px;
+      color: #ccc; 
+ }
+.team .person .rounded-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+.team .team-name{
+    font-family: "Metal Mania";
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    color : black;
+}
+
+.main-footer {
+    background-color: black;
+    color : white;
+    padding: .25em  0 ;
+}
+.main-footer-content {
+    display: flex;
+    align-items: center;
+}
+.main-footer-content ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.nav-footer li { 
+        padding:0 .5em;
+}
+.nav-footer img {
+    width: 30px;
+    height: 30px;
+}
+.btn {
+    border : 2px solid white ;
+    color : whitesmoke;
+    background-color: rgba(255, 255,255, 1);
+    font-weight: lighter;
+    font-size: 1.4em;
+    border-radius: 5%;
+
+}
